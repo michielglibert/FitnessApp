@@ -18,7 +18,7 @@ export class FoodItem extends React.Component {
           }}
         >
           <Text>{this.props.title}</Text>
-          <Text>50 kcal</Text>
+          <Text>{this.props.kcal}</Text>
         </View>
       </TouchableOpacity>
     );
